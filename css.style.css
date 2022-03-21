@@ -6,7 +6,10 @@
 .lose{
   transform: scale(0.9);
 }
-
+h1{
+  position: absolute;
+  color: #fff;
+}
 
 
 
@@ -15,12 +18,13 @@ body{
   display: flex;
   grid-template-columns: 1fr 1fr;
   flex-wrap: wrap;
-  background:linear-gradient(#87ceeb26,#e91e631f);
+  background:linear-gradient(#fce4ec,#e91e631f);
   justify-content: space-between;
 }
 img{
   width: 100%;
   padding-bottom: 30px;
+  border-radius: 40% 30% 5%/40% 22% 30% 20%;
 }
 .box{
   width: 130px;
@@ -32,7 +36,7 @@ img{
   text-align: center;
   line-height: 120px;
   color: white;
-  font-size: 1.3rem;
+  font-size: .9rem;
   padding: 10px;
 }
 
