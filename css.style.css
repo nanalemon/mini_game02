@@ -10,7 +10,9 @@ h1{
   position: absolute;
   color: #fff;
 }
-
+html{
+  background:linear-gradient(#fce4ec,#e91e631f);
+}
 
 
 
@@ -18,7 +20,6 @@ body{
   display: flex;
   grid-template-columns: 1fr 1fr;
   flex-wrap: wrap;
-  background:linear-gradient(#fce4ec,#e91e631f);
   justify-content: space-between;
 }
 img{
@@ -45,7 +46,13 @@ img{
     width: 100px;
     height: 100px;
   }
+  body{
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
 }
+
 .win{
   background: pink;
   border-radius: 50%;
@@ -56,6 +63,3 @@ img{
     justify-content: center;
   }
 }
-
-
-.
